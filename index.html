@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to SimpleSite</h1>
+    <p>Your solution for simple and effective web design</p>
+    <button onclick="getStarted()">Get Started</button>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Features -->
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Quick and responsive websites.</p>
+      </div>
+      <div class="card">
+        <h3>Secure</h3>
+        <p>Safety and privacy first.</p>
+      </div>
+      <div class="card">
+        <h3>Easy</h3>
+        <p>Simple design, easy to use.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We create simple websites that help businesses grow without complexity.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter</p>
+    <form id="subscribeForm">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SimpleSite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

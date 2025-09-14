@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #4f46e5;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+header button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: white;
+  color: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header button:hover {
+  background: #ddd;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Contact form */
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #3730a3;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
